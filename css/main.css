@@ -2,18 +2,14 @@
 ==================================================
 1-Preloader
 2-Header
-
 3-Tabs sections : 
   3/1-About tab
   3/2-Resume tab
   3/3-Portfolio tab
   3/4-Blog tab
   3/5-Contact tab
-
 4-Footer
 5-Media queries
-
-
 /** Preloader **/
 
 .loader {
@@ -385,7 +381,7 @@ img.signature{
     top: -20px;
     content: " ";
     height: 12px;
-    left: 35.3%;
+    left: 35.3%; 
     position: absolute;
     width: 12px;
     z-index: 0;
