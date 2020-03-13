@@ -12,7 +12,7 @@
 	<atom:link href="/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Thomas J. Coffey</description>
-	<lastBuildDate>Thu, 20 Feb 2020 18:45:22 +0000</lastBuildDate>
+	<lastBuildDate>Fri, 13 Mar 2020 22:49:07 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -40,16 +40,19 @@
 <p><a href="/idojo-net-project-intro/" rel="nofollow">Source</a></p>]]></content:encoded>
 										</item>
 		<item>
-		<title>Singletrack.today &#8211; Project Intro</title>
+		<title>Singletrack Today &#8211; Project Intro</title>
 		<link>/singletrack-today-project-intro/</link>
+				<comments>/singletrack-today-project-intro/#comments</comments>
 				<pubDate>Wed, 12 Feb 2020 15:26:33 +0000</pubDate>
 		<dc:creator><![CDATA[Thomas Coffey]]></dc:creator>
 				<category><![CDATA[Uncategorized]]></category>
 
 		<guid isPermaLink="false">/?p=103</guid>
-				<description><![CDATA[Why Singletrack.Today? I love to mountain bike.  But, as much as I love mountain biking, I don't ride when the trails are wet - it damages the trail. Walnut Creek is a system of popular mountain biking trails in Austin.  It's where I ride most often and it's so popular that "is Austin dry?" became&#8230;]]></description>
-								<content:encoded><![CDATA[<p>I love to mountain bike. But, as much as I love mountain biking, I don't ride when the trails are wet - it damages the trail. Walnut Creek is a system of popular mountain biking trails in Austin. It's where I ride most often and it's so popular that "is Austin dry?" became somewhat of a meme on a local biking message board. Clearly I wasn't the only one who wanted to know "is Walnut dry?</p>
+				<description><![CDATA[Why Singletrack Today? I love to mountain bike.  But, as much as I love mountain biking, I don't ride when the trails are wet - it damages the trails. Walnut Creek is a system of popular mountain biking trails in Austin, Texas.  It's where I ride most often and it's so popular that "is Austin&#8230;]]></description>
+								<content:encoded><![CDATA[<p>I love to mountain bike. But, as much as I love mountain biking, I don't ride when the trails are wet - it damages the trails. Walnut Creek is a system of popular mountain biking trails in Austin, Texas. It's where I ride most often and it's so popular that "is Austin dry?" became a meme on a local biking message board. That message board died out but the question persisted and discussion moved to...</p>
 <p><a href="/singletrack-today-project-intro/" rel="nofollow">Source</a></p>]]></content:encoded>
-										</item>
+							<wfw:commentRss>/singletrack-today-project-intro/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+							</item>
 	</channel>
 </rss>

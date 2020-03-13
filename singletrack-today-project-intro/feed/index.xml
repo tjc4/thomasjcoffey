@@ -7,9 +7,9 @@
 	>
 <channel>
 	<title>
-	Comments for Thomas J. Coffey	</title>
-	<atom:link href="/comments/feed/" rel="self" type="application/rss+xml" />
-	<link>/</link>
+	Comments on: Singletrack Today &#8211; Project Intro	</title>
+	<atom:link href="/singletrack-today-project-intro/feed/" rel="self" type="application/rss+xml" />
+	<link>/singletrack-today-project-intro/</link>
 	<description>Thomas J. Coffey</description>
 	<lastBuildDate>Fri, 13 Mar 2020 22:49:07 +0000</lastBuildDate>
 	<sy:updatePeriod>
@@ -19,7 +19,7 @@
 	<generator>https://wordpress.org/?v=5.3.2</generator>
 			<item>
 				<title>
-				Comment on Singletrack Today &#8211; Project Intro by Thomas Coffey				</title>
+				By: Thomas Coffey				</title>
 				<link>/singletrack-today-project-intro/#comment-3</link>
 		<dc:creator><![CDATA[Thomas Coffey]]></dc:creator>
 		<pubDate>Fri, 13 Mar 2020 18:24:11 +0000</pubDate>
@@ -30,7 +30,7 @@
 						</item>
 						<item>
 				<title>
-				Comment on Singletrack Today &#8211; Project Intro by new				</title>
+				By: new				</title>
 				<link>/singletrack-today-project-intro/#comment-2</link>
 		<dc:creator><![CDATA[new]]></dc:creator>
 		<pubDate>Mon, 09 Mar 2020 15:57:56 +0000</pubDate>
