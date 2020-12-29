@@ -17,7 +17,7 @@
 <link rel="stylesheet" id="fl-builder-layout-10-css" href="https://thomasjcoffey.com/wp-content/uploads/bb-plugin/cache/10-layout.css" type="text/css" media="all">
 <link rel="stylesheet" id="jquery-magnificpopup-css" href="https://thomasjcoffey.com/wp-content/plugins/bb-plugin/css/jquery.magnificpopup.min.css" type="text/css" media="all">
 <link rel="stylesheet" id="base-css" href="https://thomasjcoffey.com/wp-content/themes/bb-theme/css/base.min.css" type="text/css" media="all">
-<link rel="stylesheet" id="fl-automator-skin-css" href="https://thomasjcoffey.com/wp-content/uploads/bb-theme/skin-5feac993d318e.css" type="text/css" media="all">
+<link rel="stylesheet" id="fl-automator-skin-css" href="https://thomasjcoffey.com/wp-content/uploads/bb-theme/skin-5feb69017c1af.css" type="text/css" media="all">
 <link rel="stylesheet" id="fl-child-theme-css" href="https://thomasjcoffey.com/wp-content/themes/bb-theme-child/style.css" type="text/css" media="all">
 <link rel="stylesheet" id="fl-builder-google-fonts-7ddb8cee053bb26eb51db431c5091d95-css" href="https://fonts.googleapis.com/css?family=Open+Sans%3A300%2C400%2C700%7CMontserrat%3A400%2C500&ver=5.6" type="text/css" media="all">
 <script type="text/javascript" src="https://thomasjcoffey.com/wp-includes/js/jquery/jquery.min.js" id="jquery-core-js"></script>
@@ -31,10 +31,36 @@
 <link rel="icon" href="https://thomasjcoffey.com/wp-content/uploads/2020/12/cropped-TC-Consult-192x192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="https://thomasjcoffey.com/wp-content/uploads/2020/12/cropped-TC-Consult-180x180.png">
 <meta name="msapplication-TileImage" content="https://thomasjcoffey.com/wp-content/uploads/2020/12/cropped-TC-Consult-270x270.png">
-</head>
+		<style type="text/css" id="wp-custom-css">
+			/**
+ * mobile-left-center class makes left aligned text center in mobile layout
+ * mobile-right-center class makes right aligned text center in mobile layout
+ *
+ * @author Davinder Singh Kainth
+ * @link http://probeaver.com/?p=770
+ *
+ */
+ 
+
+.mobile-left-center {
+  text-align: left;
+}
+
+.mobile-right-center {
+  text-align: right;
+}
+
+
+@media only screen and (max-width: 768px) {
+.mobile-left-center,
+.mobile-right-center {
+  text-align: center;
+  }
+}		</style>
+		</head>
 <body class="home page-template-default page page-id-10 fl-builder fl-framework-base fl-preset-default fl-full-width" itemscope="itemscope" itemtype="https://schema.org/WebPage">
 <div class="fl-page">
-	<header class="fl-page-header fl-page-header-fixed fl-page-nav-right fl-page-nav-toggle-button fl-page-nav-toggle-visible-mobile">
+	<header class="fl-page-header fl-page-header-fixed fl-page-nav-right fl-page-nav-toggle-icon fl-page-nav-toggle-visible-mobile">
 	<div class="fl-page-header-wrap">
 		<div class="fl-page-header-container container">
 			<div class="fl-page-header-row row">
@@ -47,7 +73,7 @@
 					<div class="fl-page-nav-wrap">
 						<nav class="fl-page-nav fl-nav navbar navbar-default navbar-expand-md" aria-label="Header Menu">
 							<button type="button" class="navbar-toggle navbar-toggler" data-toggle="collapse" data-target=".fl-page-nav-collapse">
-								<span>Menu</span>
+								<span><i class="fas fa-bars"></i></span>
 							</button>
 							<div class="fl-page-nav-collapse collapse navbar-collapse">
 								<ul id="menu-header" class="nav navbar-nav navbar-right menu"><li id="menu-item-43" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43 nav-item"><a href="#work" class="nav-link">Work</a></li>
@@ -62,7 +88,7 @@
 		</div>
 	</div>
 </header>
-<header class="fl-page-header fl-page-header-primary fl-page-nav-right fl-page-nav-toggle-button fl-page-nav-toggle-visible-mobile" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
+<header class="fl-page-header fl-page-header-primary fl-page-nav-right fl-page-nav-toggle-icon fl-page-nav-toggle-visible-mobile" itemscope="itemscope" itemtype="https://schema.org/WPHeader">
 	<div class="fl-page-header-wrap">
 		<div class="fl-page-header-container container">
 			<div class="fl-page-header-row row">
@@ -75,7 +101,7 @@
 					<div class="fl-page-nav-wrap">
 						<nav class="fl-page-nav fl-nav navbar navbar-default navbar-expand-md" aria-label="Header Menu" itemscope="itemscope" itemtype="https://schema.org/SiteNavigationElement">
 							<button type="button" class="navbar-toggle navbar-toggler" data-toggle="collapse" data-target=".fl-page-nav-collapse">
-								<span>Menu</span>
+								<span><i class="fas fa-bars"></i></span>
 							</button>
 							<div class="fl-page-nav-collapse collapse navbar-collapse">
 								<ul id="menu-header-1" class="nav navbar-nav navbar-right menu"><li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-43 nav-item"><a href="#work" class="nav-link">Work</a></li>
@@ -129,7 +155,7 @@
 <div class="fl-module fl-module-rich-text fl-node-5feaa37c301dc" data-node="5feaa37c301dc">
 	<div class="fl-module-content fl-node-content">
 		<div class="fl-rich-text">
-	<p>I began my career as a reinsurance broker before moving into the insurtech world as the founder of SureUp, an insurance robo-advisor.</p>
+	<p>I began my career as a reinsurance broker before transitioning into the insurtech world.</p>
 <p>Since then I've continued to venture further into the tech world without losing sight of my insurance roots.</p>
 <p>I'm open to new opportunities that allow me to work with cool people, have a big impact, and challenge myself.</p>
 <p>Please contact me if you think I might be a good fit for one of your projects or you're interested in one of mine.</p>
@@ -200,7 +226,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa9399b412" data-node="5feaa9399b412">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa9399b413" data-node="5feaa9399b413">
+	<div class="fl-module fl-module-heading fl-node-5feaa9399b413 mobile-left-center" data-node="5feaa9399b413">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">Consultant at TC Consulting</span>
@@ -240,7 +266,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa413f1572" data-node="5feaa413f1572">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa413f1573" data-node="5feaa413f1573">
+	<div class="fl-module fl-module-heading fl-node-5feaa413f1573 mobile-left-center" data-node="5feaa413f1573">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">Founder of Prmm</span>
@@ -280,7 +306,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa936ee897" data-node="5feaa936ee897">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa936ee898" data-node="5feaa936ee898">
+	<div class="fl-module fl-module-heading fl-node-5feaa936ee898 mobile-left-center" data-node="5feaa936ee898">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">Founder of SureUp</span>
@@ -320,7 +346,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa678590c5" data-node="5feaa678590c5">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa678590c6" data-node="5feaa678590c6">
+	<div class="fl-module fl-module-heading fl-node-5feaa678590c6 mobile-left-center" data-node="5feaa678590c6">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">Reinsurance Broker at Aon Benfield</span>
@@ -398,7 +424,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa6bd1ecc7" data-node="5feaa6bd1ecc7">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa6bd1ecc8" data-node="5feaa6bd1ecc8">
+	<div class="fl-module fl-module-heading fl-node-5feaa6bd1ecc8 mobile-left-center" data-node="5feaa6bd1ecc8">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">Idojo</span>
@@ -438,7 +464,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa77b1fe7e" data-node="5feaa77b1fe7e">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa77b1fe7f" data-node="5feaa77b1fe7f">
+	<div class="fl-module fl-module-heading fl-node-5feaa77b1fe7f mobile-left-center" data-node="5feaa77b1fe7f">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">Singletrack Today</span>
@@ -516,7 +542,7 @@
 </div>
 			<div class="fl-col fl-node-5feaa6ca9e025" data-node="5feaa6ca9e025">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa6ca9e026" data-node="5feaa6ca9e026">
+	<div class="fl-module fl-module-heading fl-node-5feaa6ca9e026 mobile-left-center" data-node="5feaa6ca9e026">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">MBA - University of Texas at Austin's McCombs School of Business</span>
@@ -556,14 +582,14 @@
 </div>
 			<div class="fl-col fl-node-5feaa7af7d851" data-node="5feaa7af7d851">
 	<div class="fl-col-content fl-node-content">
-	<div class="fl-module fl-module-heading fl-node-5feaa7af7d852" data-node="5feaa7af7d852">
+	<div class="fl-module fl-module-heading fl-node-5feaa7af7d852 mobile-left-center" data-node="5feaa7af7d852">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">BBA - Finance and Accounting - Goizueta School of Business</span>
 	</h3>
 	</div>
 </div>
-<div class="fl-module fl-module-heading fl-node-5feaab08a720b" data-node="5feaab08a720b">
+<div class="fl-module fl-module-heading fl-node-5feaab08a720b mobile-left-center" data-node="5feaab08a720b">
 	<div class="fl-module-content fl-node-content">
 		<h3 class="fl-heading">
 		<span class="fl-heading-text">BA - Economics - Emory College</span>
@@ -757,22 +783,39 @@
 	<div class="fl-col-content fl-node-content">
 	<div class="fl-module fl-module-contact-form fl-node-5feaaad04aee4" data-node="5feaaad04aee4">
 	<div class="fl-module-content fl-node-content">
+		<form class="fl-contact-form">
+		<input type="hidden" name="fl-layout-id" value="10">
 
-		<form name="generic-netlify-contact" method="POST" data-netlify="true">
-			<p>
-			  <label>Your Name: <input type="text" name="name" /></label>   
-			</p>
-			<p>
-			  <label>Your Email: <input type="email" name="email" /></label>
-			</p>
-			<p>
-			  <label>Message: <textarea name="message"></textarea></label>
-			</p>
-			<p>
-			  <button type="submit">Send</button>
-			</p>
-		  </form>
+		<div class="fl-input-group fl-name">
+		<label for="fl-name">Name</label>
+		<span class="fl-contact-error">Please enter your name.</span>
+		<input type="text" id="fl-name" name="fl-name" value="" placeholder="Your name">
+	</div>
+	
+	
+		<div class="fl-input-group fl-email">
+		<label for="fl-email">Email</label>
+		<span class="fl-contact-error">Please enter a valid email.</span>
+		<input type="email" id="fl-email" name="fl-email" value="" placeholder="Your email">
+	</div>
+	
+	
+	<div class="fl-input-group fl-message">
+		<label for="fl-message">Your Message</label>
+		<span class="fl-contact-error">Please enter a message.</span>
+		<textarea id="fl-message" name="fl-message" placeholder="Your message"></textarea>
+	</div>
 
+	
+		<div class="fl-button-wrap fl-button-width-auto fl-button-left">
+			<a href="#" target="_self" class="fl-button" role="button">
+							<span class="fl-button-text">Send</span>
+					</a>
+</div>
+			<span class="fl-success-none" style="display:none;">Message Sent!</span>
+	
+	<span class="fl-send-error" style="display:none;">Message failed. Please try again.</span>
+</form>
 	</div>
 </div>
 	</div>
@@ -801,6 +844,7 @@
 </div>
 	</footer>
 		</div>
+<link rel="stylesheet" id="font-awesome-5-css" href="https://thomasjcoffey.com/wp-content/plugins/bb-plugin/fonts/fontawesome/css/all.min.css" type="text/css" media="all">
 <script type="text/javascript" src="https://thomasjcoffey.com/wp-content/uploads/bb-plugin/cache/10-layout.js" id="fl-builder-layout-10-js"></script>
 <script type="text/javascript" src="https://thomasjcoffey.com/wp-content/plugins/bb-plugin/js/jquery.ba-throttle-debounce.min.js" id="jquery-throttle-js"></script>
 <script type="text/javascript" src="https://thomasjcoffey.com/wp-content/plugins/bb-plugin/js/jquery.magnificpopup.min.js" id="jquery-magnificpopup-js"></script>
