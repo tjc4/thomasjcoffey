@@ -757,39 +757,35 @@
 	<div class="fl-col-content fl-node-content">
 	<div class="fl-module fl-module-contact-form fl-node-5feaaad04aee4" data-node="5feaaad04aee4">
 	<div class="fl-module-content fl-node-content">
-		<form class="fl-contact-form">
-		<input type="hidden" name="fl-layout-id" value="10">
-
-		<div class="fl-input-group fl-name">
-		<label for="fl-name">Name</label>
-		<span class="fl-contact-error">Please enter your name.</span>
-		<input type="text" id="fl-name" name="fl-name" value="" placeholder="Your name">
-	</div>
-	
-	
-		<div class="fl-input-group fl-email">
-		<label for="fl-email">Email</label>
-		<span class="fl-contact-error">Please enter a valid email.</span>
-		<input type="email" id="fl-email" name="fl-email" value="" placeholder="Your email">
-	</div>
-	
-	
-	<div class="fl-input-group fl-message">
-		<label for="fl-message">Your Message</label>
-		<span class="fl-contact-error">Please enter a message.</span>
-		<textarea id="fl-message" name="fl-message" placeholder="Your message"></textarea>
-	</div>
-
-	
-		<div class="fl-button-wrap fl-button-width-auto fl-button-left">
-			<a href="#" target="_self" class="fl-button" role="button">
-							<span class="fl-button-text">Send</span>
-					</a>
-</div>
+		<form class="fl-contact-form" name="contact" method="POST" data-netlify="true">
+			<input type="hidden" name="fl-layout-id" value="15" />
+			<div class="fl-input-group fl-name">
+			<label for="fl-name">Name</label>
+			<span class="fl-contact-error">Please enter your name.</span>
+			<input type="text" id="fl-name" name="fl-name" value="" placeholder="Your name" />
+			</div>
+			
+			
+			<div class="fl-input-group fl-email">
+			<label for="fl-email">Email</label>
+			<span class="fl-contact-error">Please enter a valid email.</span>
+			<input type="email" id="fl-email" name="fl-email" value="" placeholder="Your email" />
+			</div>
+			
+			
+			<div class="fl-input-group fl-message">
+			<label for="fl-message">Your Message</label>
+			<span class="fl-contact-error">Please enter a message.</span>
+			<textarea id="fl-message" name="fl-message" placeholder="Your message"></textarea>
+			</div>
+		
+			
+			<div class="fl-button-wrap fl-button-width-auto fl-button-left">
+			<button type="submit">Contact Tom</button>
+			</div>
 			<span class="fl-success-none" style="display:none;">Message Sent!</span>
-	
-	<span class="fl-send-error" style="display:none;">Message failed. Please try again.</span>
-</form>
+			<span class="fl-send-error" style="display:none;">Message failed. Please try again.</span>
+		</form>
 	</div>
 </div>
 	</div>
